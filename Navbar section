@@ -1,0 +1,99 @@
+2. #(HTML) NAVBAR BANNER SECTION :
+
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+crossorigin="anonymous" />
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="bg-container pb-5 pt-5">
+ <div class="container">
+ <div class="row">
+ <div class="col-12">
+ <div class="bg-container1 d-flex flex-column justify-content-end justify-content-mdcenter pb-5 w-100">
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top background menu">
+ <a class="navbar-brand" href="#">
+ <img src="https://assets.ccbp.in/frontend/responsive-website/landing-sectiondesign-logo-img.png" class="image" />
+ </a>
+ <button class="navbar-toggler icon" type="button" data-toggle="collapse" datatarget="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" arialabel="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+ <div class="navbar-nav ml-auto">
+ <a class="nav-link active text-white" href="#">Home <span class="sronly">(current)</span></a>
+ <a class="nav-link text-white" href="#">Features</a>
+ <a class="nav-link text-white" href="#">Pricing</a>
+ <a class="nav-link text-white" href="#">blog</a>
+ <a class="nav-link text-white" href="#">contacts</a>
+ </div>
+ </div>
+ </nav>
+ <div class="text-center">
+ <h1 class="heading">the most
+ <span class="heading1"> flexible </span>webdesign tool
+ </h1>
+ <p class="paragraph">we have done it clearly and simply,combined with the
+ingredients makes for beautiful landings.it is the tool you need to speed up your design process</p>
+ <button class="button">sign up</button>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>
+
+
+2. #(CSS) NAVBAR AND BANNER SECTION:
+
+.image {
+ height: 30px;
+ width: 100px;
+}
+.bg-container1 {
+ height: 100vh;
+ background-size: cover;
+ width: 100%;
+ background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-sectionbg.png");
+}
+.heading {
+ font-size: 25px;
+ color: #ffdda9;
+ font-weight: bold;
+}
+.heading1 {
+ color: #ffdda9;
+}
+.menu {
+ background-color: #0c0521;
+}
+.background-color {
+ background-color: #0c0521;
+}
+.icon {
+ background-color: white;
+}
+.paragraph {
+ font-size: 16px;
+ color: #ffdda9;
+}
+.button {
+ font-size: 20px;
+ color: black;
+ font-weight: bold;
+ background-color: white;
+ border-radius: 10px;
+}
